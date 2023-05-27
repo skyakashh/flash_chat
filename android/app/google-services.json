@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236719118360",
+    "project_id": "chatapp-c082b",
+    "storage_bucket": "chatapp-c082b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236719118360:android:fe600d5f09a775a8928b6d",
+        "android_client_info": {
+          "package_name": "com.example_sky.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236719118360-2pvcjma2de0cj0n5i0bpi69guucva6qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlYa7qDD0NXz5CuWe52yX6wLq1Gw1GFls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236719118360-2pvcjma2de0cj0n5i0bpi69guucva6qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
