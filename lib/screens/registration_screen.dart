@@ -12,19 +12,9 @@ class RegistrationScreen extends StatefulWidget {
 }
 
 class _RegistrationScreenState extends State<RegistrationScreen> {
-  late final FirebaseApp app;
   late final _auth=FirebaseAuth.instance ;
   String email="",password="";
   bool showspinner=false;
-
-  Future<void> main() async {
-    WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp();
-
-    // Ideal time to initialize
-    await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
-    //...
-  }
 
 
   @override
