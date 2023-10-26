@@ -34,15 +34,7 @@ class _ChatScreenState extends State<ChatScreen> {
     }
   }
 
-  void msgstream() async{
-    await for (var snap in _firestore.collection('messages').snapshots()  )
-      {
-          for(var message in snap.docs)
-            {
-                print(message.data());
-            }
-      }
-  }
+ 
 
 
   @override
@@ -54,10 +46,10 @@ class _ChatScreenState extends State<ChatScreen> {
           IconButton(
               icon: Icon(Icons.close),
               onPressed: () {
-                // _auth.signOut();
-                // Navigator.pop(context);
+                 _auth.signOut();
+                 Navigator.pop(context);
                 //getmessages();
-                msgstream();
+               
                 //Implement logout functionality
               }),
         ],
