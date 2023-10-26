@@ -20,7 +20,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
          vsync: this,
      );
 
-     //animation = CurvedAnimation(parent: controller!, curve: Curves.decelerate);
      _controller.forward();
      _controller.addListener(() {
        setState(() {
@@ -38,8 +37,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //
-      backgroundColor: Colors.red,//.withOpacity(_controller.value==null ? 2 : _controller.value),
+      backgroundColor: Colors.red,
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
